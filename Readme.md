@@ -5,6 +5,7 @@
 - Optimization
 - Scalable
 - Low power.
+- Cheap
 
 ### Goals
 
@@ -33,14 +34,21 @@ Network ARch.
 
 - Working with a larger dataset. What are the prereqs in terms of the hardware we use
 
-- Can we do feature learning (Better models) (Higher or lower feature learning whichever one is feasible). Maybe autoencoders will work. (Task aware autoencoders). Look into autoencoders. 
+- Can we do feature learning (Better models) (Higher or lower feature learning whichever one is feasible). Maybe autoencoders will work. (Task aware autoencoders). Look into autoencoders. Can we scale using Variational Autoencoders.
 - Aim for maximum returns. Better Policy optimization. Can we aim for better methods.
 
-- FLoating point operations. FP optimization. Achieving Higher FLOPs inspite of the memory constraints.
+- FLoating point operations. FP optimization. Achieving Higher FLOPs inspite of the memory constraints. 
+
+- Can we figure out the drawbacks of the MCuNets.
+- Should we try something easier to deploy instead of starting with a custom model or using an off the shelf MCU.
 
 ### TO DO:
 
 
 - Read the paper on MCUnet:- [https://hanlab.mit.edu/projects/tinyml/mcunet/](hanlabmit). Study the full stack from scratch.
-- Learn more about Memory optimization.
-- Read about using datasets on Low power devices
+- Learn more about Memory optimization. Keep in mind memory constraints.
+- Read about using datasets on Low power devices.
+- Come back to AVR memory. Look at the models it can support and what can we do for better optimization.
+- Object Detection using a Custom Model. Look into edge devices and try to use lesser layers if we are trying to perform detection on lower level features.
+
+
